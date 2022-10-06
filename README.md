@@ -24,5 +24,4 @@ Use `test/test.ts` to manually try out rules.
 
 ## Notes
 
-- `tsconfig.json` is here because of [Linting with Type Information
-  ](https://typescript-eslint.io/docs/linting/type-linting/)
+- `tsconfig.json` is here because of [Linting with Type Information](https://typescript-eslint.io/docs/linting/type-linting/)
