@@ -47,6 +47,13 @@ module.exports = {
     '@typescript-eslint/no-extra-semi': ['error'],
     'no-invalid-this': 'off',
     '@typescript-eslint/no-invalid-this': ['error'],
+    // Import sorting
+    'sort-imports': [
+      'error',
+      {
+        ignoreDeclarationSort: true,
+      },
+    ],
 
     // Import ordering
     'import/order': [
