@@ -18,7 +18,7 @@ module.exports = {
     ecmaVersion: 2022,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'eslint-plugin-import'],
+  plugins: ['@typescript-eslint', 'eslint-plugin-import', 'unused-imports'],
   rules: {
     // Lumiverse specific styles
     'linebreak-style': [2, 'unix'],
@@ -47,7 +47,21 @@ module.exports = {
     '@typescript-eslint/no-extra-semi': ['error'],
     'no-invalid-this': 'off',
     '@typescript-eslint/no-invalid-this': ['error'],
-    // Import sorting
+
+    // unused-imports
+    'no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'warn',
+      {
+        vars: 'all',
+        varsIgnorePattern: '^_',
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+      },
+    ],
+
+    // sort-imports
     'sort-imports': [
       'error',
       {
