@@ -11,18 +11,16 @@
   "files": [
     ".eslintrc.js"
   ],
-  "dependencies": {
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
-    "typescript": "^4.8.4"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.39.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.8.3"
+    "@types/node": "^18.8.3",
+    "typescript": "^4.8.4"
   }
 }
