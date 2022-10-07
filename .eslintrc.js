@@ -48,6 +48,9 @@ module.exports = {
     'no-invalid-this': 'off',
     '@typescript-eslint/no-invalid-this': ['error'],
 
+    // Newlines
+    'no-multiple-empty-lines': ['error', { max: 1 }],
+
     // unused-imports
     'no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
     'unused-imports/no-unused-imports': 'error',
