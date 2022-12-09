@@ -8,6 +8,8 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     'plugin:@typescript-eslint/recommended',
     // TODO: Cannot add with shared configs - see https://typescript-eslint.io/docs/linting/type-linting/
     // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -18,9 +20,13 @@ module.exports = {
     ecmaVersion: 2022,
     sourceType: 'module',
   },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   plugins: ['@typescript-eslint', 'eslint-plugin-import', 'unused-imports'],
   rules: {
-    // Lumiverse specific styles
     'linebreak-style': [2, 'unix'],
     '@typescript-eslint/member-delimiter-style': [
       2,
