@@ -2,7 +2,7 @@
 
 ## Usage
 
-**_REQUIRES NODE 16 (OR EXPLICIT PEER DEPENDENCY INSTALL)_**
+**_REQUIRES NODE >=16 (OR EXPLICIT PEER DEPENDENCY INSTALL)_**
 
 In the **project you want to include the config**, run:
 
@@ -10,7 +10,7 @@ In the **project you want to include the config**, run:
 npm i -D git@github.com:renodesu/eslint-config.git
 ```
 
-Add it to project `.eslintrc.js`:
+Add it to project `.eslintrc.cjs`:
 
 ```javascript
 module.exports = {
