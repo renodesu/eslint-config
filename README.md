@@ -1,13 +1,11 @@
 # @renodesu/eslint-config
 
+Opinionated eslint config.
+
 ## Usage
 
-**_REQUIRES NODE >=16 (OR EXPLICIT PEER DEPENDENCY INSTALL)_**
-
-In the **project you want to include the config**, run:
-
-```bash
-npm i -D git@github.com:renodesu/eslint-config.git
+```
+npm i @renodesu/eslint-config
 ```
 
 Add it to project `.eslintrc.cjs`:

@@ -12,17 +12,17 @@
     ".eslintrc.js"
   ],
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.59.2",
-    "@typescript-eslint/parser": "^5.59.2",
-    "eslint": "^8.39.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-unused-imports": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.16.3",
-    "@types/react": "^18.2.4",
-    "typescript": "^5.0.4"
+    "@types/node": "^20.4.10",
+    "@types/react": "^18.2.20",
+    "typescript": "^5.1.6"
   }
 }
