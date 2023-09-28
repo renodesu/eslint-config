@@ -8,9 +8,9 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
-    'plugin:@typescript-eslint/recommended',
     // TODO: Cannot add with shared configs - see https://typescript-eslint.io/docs/linting/type-linting/
     // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
@@ -41,6 +41,7 @@ module.exports = {
     ],
     // '@typescript-eslint/class-literal-property-style': [1, 'fields'],
     '@typescript-eslint/prefer-ts-expect-error': 1,
+    '@typescript-eslint/consistent-type-imports': 'error',
 
     // Rules where typescript-eslint overrides core rules
     // Some rules require turning off core rule (eslint) and enabling ts-rule
@@ -53,12 +54,14 @@ module.exports = {
     '@typescript-eslint/no-extra-semi': ['error'],
     'no-invalid-this': 'off',
     '@typescript-eslint/no-invalid-this': ['error'],
+    'no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
+    '@typescript-eslint/no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
 
     // Newlines
     'no-multiple-empty-lines': ['error', { max: 1 }],
+    'react/no-unescaped-entities': 'off',
 
     // unused-imports
-    'no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
