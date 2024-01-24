@@ -1,4 +1,6 @@
-import { copyFile, rmSync } from 'fs'
+// import { copyFile, rmSync } from 'fs'
+// import { copyFile as copyFile } from 'fs'
+// console.log(copyFile)
 import path from 'path'
 
 const x = 666
@@ -20,13 +22,18 @@ interface Props {
   enabled: boolean
 }
 
+const foo = 1
+const kek = {
+  foo,
+}
+
 const Foo = (_props: Props) => {
   const arr: Array<{ id: number }> = []
   return (
     <div>
       foobar'asd
       <button>kek</button>
-      {arr.map(item => {
+      {arr.map((item) => {
         return <div key={item.id}>foo</div>
       })}
     </div>

@@ -28,6 +28,8 @@ module.exports = {
   plugins: ['@typescript-eslint', 'eslint-plugin-import', 'unused-imports'],
   rules: {
     'linebreak-style': [2, 'unix'],
+    'object-shorthand': [1],
+    'no-useless-rename': [1],
     '@typescript-eslint/member-delimiter-style': [
       2,
       {

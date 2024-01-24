@@ -1,4 +1,4 @@
-# @renodesu/eslint-config
+# @lumiverseltd/eslint-config
 
 Opinionated eslint config.
 
@@ -18,7 +18,7 @@ module.exports = {
 
 ## Testing
 
-Use `test/test.tsx` to manually try out rules.
+Use `test/test.ts` to manually try out rules.
 
 ## Notes
 
