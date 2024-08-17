@@ -8,7 +8,7 @@ Opinionated eslint config.
 npm i @renodesu/eslint-config
 ```
 
-Add it to project `.eslintrc.cjs`:
+Add it to project `eslint.config.js` (or `.cjs`):
 
 ```javascript
 module.exports = {
