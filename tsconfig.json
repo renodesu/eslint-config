@@ -16,6 +16,8 @@
     "allowSyntheticDefaultImports": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "eslint.config.js",
+    "prettier.config.js",
   ],
 }
