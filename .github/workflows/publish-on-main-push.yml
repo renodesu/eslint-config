@@ -19,8 +19,8 @@ jobs:
       - run: npm ci
       - name: "Setup git"
         run: |
-          git config user.name "github-workflow"
-          git config user.email "github.workflow@niodi.fi"
+          git config user.name "github"
+          git config user.email "github@niodi.fi"
       - name: "Upgrade package version"
         run: npm version patch
       - run: npm publish
