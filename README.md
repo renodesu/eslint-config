@@ -1,24 +1,29 @@
-# @lumiverseltd/eslint-config
+# @renodesu/lint
 
-Opinionated eslint config.
+Opinionated eslint@9 + prettier config.
 
 ## Usage
 
 ```
-npm i @renodesu/eslint-config
+npm i https://github.com/renodesu/lint
 ```
 
-Add it to project `eslint.config.js` (or `.cjs`):
+Add eslint config to project `eslint.config.js` (or `.cjs`):
 
 ```javascript
-module.exports = {
-  extends: '@renodesu/eslint-config',
-}
+import config from '@renodesu/lint/eslint'
+export default [...config]
+```
+
+Add prettier config to project `.prettierrc.json`:
+
+```json
+"@renodesu/lint/prettier"
 ```
 
 ## Testing
 
-Use `test/test.ts` to manually try out rules.
+Use `src/*` to manually try out rules.
 
 ## Notes
 
